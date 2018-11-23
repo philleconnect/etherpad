@@ -6,7 +6,7 @@ ENV VERSION "latest"
 
 USER root
 
-LABEL maintainer="Dirk Winkel it@polarwinkel.de" version=latest description="an Etherpad-lite, that will be cleared every day at 5:00am"
+LABEL maintainer="Dirk Winkel it@polarwinkel.de" version=latest description="an Etherpad-lite without external database that will be cleared on every rebuild"
 
 RUN apt-get update
 RUN apt-get install -y apt-utils
