@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  etherpad:
+    build: .
+    container_name: etherpad
+    hostname: etherpad
+    ports:
+     - "9001:9001"
