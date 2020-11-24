@@ -14,7 +14,7 @@ RUN apt-get install -y gzip git curl python libssl-dev pkg-config build-essentia
 RUN apt-get install -y abiword
 
 # unter Debian ist das node.js aus den Paketquellen nicht richtig:
-RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
 RUN apt-get install -y nodejs
 
 #RUN useradd etherpad
